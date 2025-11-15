@@ -43,3 +43,16 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+
+lib/firebase_options.dart
+# Firebase & FlutterFire
+.firebase/
+.firebaseproject
+firebase-debug.log
+**/google-services.json
+**/GoogleService-Info.plist
+**/firebase_app_id_file.json
+.flutterfire_config.dart
+
+
+
