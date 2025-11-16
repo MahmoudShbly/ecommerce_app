@@ -1,0 +1,4 @@
+enum AppEnums {
+  password,
+  email,
+}

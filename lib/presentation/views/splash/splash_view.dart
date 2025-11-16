@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_ecommerce_app/core/configs/theme/app_colors.dart';
+import 'package:flutter_ecommerce_app/common/theme/app_colors.dart';
 import 'package:flutter_ecommerce_app/core/utils/app_assets.dart';
 import 'package:flutter_ecommerce_app/core/utils/app_routers.dart';
 
@@ -12,12 +12,12 @@ class SplashView extends StatefulWidget {
 
 
 class _SplashViewState extends State<SplashView> {
-//   @override
-//   void initState() {
-//   super.initState();
-//   nextPage();
+  @override
+  void initState() {
+  super.initState();
+  nextPage();
   
-// }
+}
   @override
   Widget build(BuildContext context) {
     return Scaffold(

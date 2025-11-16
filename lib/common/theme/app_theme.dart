@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_ecommerce_app/core/configs/theme/app_colors.dart';
+import 'package:flutter_ecommerce_app/common/theme/app_colors.dart';
 
 class AppTheme {
   static final appTheme = ThemeData(
@@ -14,7 +14,7 @@ class AppTheme {
         color: Color(0xffA7A7A7),
         fontWeight: FontWeight.w500,
       ),
-      contentPadding: EdgeInsets.all(30),
+      contentPadding: EdgeInsets.all(18),
       border: OutlineInputBorder(
         borderRadius: BorderRadius.circular(4),
         borderSide: BorderSide.none,
